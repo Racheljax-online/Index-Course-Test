@@ -1,0 +1,167 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Example 1 </title>
+    <!-- We are going to be adding new fonts here, they have to be inside the head tag -->
+
+
+    <style>
+
+
+
+       body
+       {
+        /* margin: 0;
+            padding: 0; */
+            background-color: black;
+       }
+
+.flow {
+    /* We will dive deeper into different displays for layout next classs */
+
+ 
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            color: rgb(204, 255, 63);
+        }
+
+        /* We are going to use our custom fonts here, when they are in the header they are just permitting us to use them as a property */
+
+p{
+    z-index: 1;
+}
+
+
+/* Here we are going to learn how to use position to change the place where an element is "supposed to land" */
+
+#move { position: relative;
+        top: -200px;
+        right: 0;
+        bottom: 0;
+        left: 500px;
+
+        z-index: -99;
+
+}
+
+/* On the image overllap div we are going to learnn how to use display block and opacity to hide and show a given elemnent */
+
+/* We are also gonna play a bt with some effects */
+
+#imgOverlap {
+    /* margin: auto;
+    text-align: center; */
+}
+
+#imgOverlap img {
+    background-color: rgb(194, 39, 255);
+    /* width: 25%;
+
+    border: 10px solid blue;
+    margin: 2%; */
+
+    
+}
+
+#imgOverlap img:hover {
+    background-color: blue;
+    width:50%;
+    opacity:20%;
+}
+
+.audio-container {
+width: 1000px;
+margin-bottom: 40px;
+}
+
+.audio-player {
+    background-color: rgb(251, 23, 23);
+    padding: 10px;
+}
+
+
+.videostyle {
+    background-color: rgb(165, 116, 42);
+    display: block;
+    width: 100%;
+}
+/*
+.audio-player {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+.audio-player audio {
+  width: 100%;
+}
+
+.audio-player audio::-webkit-media-controls-panel {
+  background-color: red;
+  border-radius: 5px;
+}
+
+.audio-player audio::-webkit-media-controls-play-button {
+  background-color: blueviolet;
+}
+
+.audio-player audio::-webkit-media-controls-volume-slider {
+  width: 80px;
+
+  */
+    </style>
+</head>
+
+<body>
+    <section class="flow">
+
+        <h1>The Code's Silent Realm: A Short Poem
+        </h1>
+        
+
+        <p>Amidst the code's realm where keystrokes abound,
+            The mystic environment glows around.
+            With silent taps, the ones and zeros align,
+            As lines of code become art, divine.</p>
+
+            <p>The coder weaves their craft within this sphere,
+                With rhythm and flow that few else can hear.
+                In this enchanted land where code reigns high,
+                Imagination and logic both apply.</p>
+
+                <div class="audio-container">
+
+                    <div class="audio-player">
+                    <audio controls>
+                        <source src="images/soundfx/Woodpecker.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+
+                </div>
+                <iframe width="900" height="315" src="https://www.youtube.com/embed/eBgr32jL0Do?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <video src="images/Powers of Ten™ (1977).mp4" autoplay controls></video>
+                <iframe class="videostyle" width="560" height="315" src="https://www.youtube.com/embed/R3PKWzdxun8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div id="img1">
+                <img id="move" src="images/computersNature.gif" alt="gif animation about computers">
+        
+            </div>
+
+            <div id="imgOverlap">
+                <img id="one" src="images/Miroodles - Mono Comp (1).png" alt="series of one item illustrations">
+                <img id="two" src="images/Miroodles - Mono Comp (2).png" alt="series of one item illustrationsn">
+                <img src="images/Miroodles - Mono Comp (3).png" alt="series of one item illustrationsn">
+
+
+            </div>
+       
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,477 @@
+@font-face {
+    font-family: 'Microgramma-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: url('microgramma-bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Items-Mono';
+    font-weight: normal;
+    font-style: normal;
+    src: url('items-mono.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Microgramma-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: url('microgramma-regular.woff') format('woff');
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(221, 221, 221);
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+    text-decoration: none;
+    border-radius: 1px;
+    border-right: 1px solid black;
+  }
+  
+  li a:hover {
+    background-color:  rgb(64, 64, 64);
+    color:black
+  }
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column2 {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+h1 {
+    font-size: 6rem;
+    line-height: -8rem;
+}
+
+
+h2 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h3 {
+    font-size: 1rem;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+body {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+    margin-left: 0px
+}
+
+p {
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+}
+
+.caption {
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    color: rgb(221, 221, 221);
+}
+
+
+h4 {
+    font-size: 1rem;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+
+}
+
+h6 {
+    font-size:200px;
+    margin-right: 10px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+
+}
+
+
+/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+    .bigtext {
+      font-size: 200px;
+    }
+  }
+  
+
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .bigtext {
+      font-size: 90px;
+    }
+  }
+
+a.nav:visited {
+    text-decoration:none;
+
+}
+a.nav {color: rgb(221, 221, 221); text-decoration: none;}
+a.nav:link {color: rgb(221, 221, 221);}
+a.nav:hover {color: rgb(221, 221, 221);}
+a.nav:active {color: rgb(221, 221, 221);}
+a.nav:visited {color:rgb(221, 221, 221)}
+    
+
+
+li {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom:0px;
+    padding-right:30px;
+
+}
+
+
+
+img {
+    padding-top: 0px;
+}
+
+
+hr {
+    border-top: 1px solid #000;
+    border-bottom: #000;
+    padding-top:0px;
+    padding-bottom: 0px;
+}
+
+
+.one {
+    background-color: rgb(255, 204, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.one:hover {
+    background-color: blue;
+    color:rgb(227, 227, 227)
+}
+
+
+
+
+.two {
+    background-color: rgb(255, 123, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.two:hover {
+    background-color: rgb(9, 185, 0);
+    color:rgb(227, 227, 227)
+}
+
+
+
+.three {
+    background-color: rgb(183, 125, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.three:hover {
+    background-color: rgb(255, 44, 44);
+    color:rgb(227, 227, 227)
+}
+
+.four {
+    background-color: rgb(125, 255, 140);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.four:hover {
+    background-color: rgb(135, 44, 255);
+    color:rgb(227, 227, 227)
+}
+
+marquee {
+    padding-bottom: 0px;
+}
+
+.responsive-two-column-grid {
+    display:block;
+}
+
+/* columns */
+.responsive-two-column-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:1200px) {
+    .responsive-two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+.galleryrow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 8px;
+    background-color: black;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .gallerycolumn {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 4px;
+  }
+  
+  .gallerycolumn img {
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .gallerycolumn {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .gallerycolumn {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+
+  a{
+    text-decoration: none;
+    color:black;
+  }
+
+  a:visited { 
+    text-decoration: none;
+    color: black;
+}
+a:hover { text-decoration: none;color:white }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; color:white }
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
+
+
+.galleryrow2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 8px;
+    position: relative;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .gallerycolumn2 {
+    flex: 50;
+    max-width: 50%;
+    padding: 10px;
+    max-height: 200px;
+    display: block;
+    position: relative;
+  }
+  
+  .gallerycolumn2 img {
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .gallerycolumn2 {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .gallerycolumn2 {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .slideshows {
+    position: relative;
+  }
+
+  .circled {
+    border: 1px, rgb(0, 0, 0);
+    border-bottom:#000;
+    border-style: solid;
+    width: fit-content;
+    border-width:thin;
+    margin-left: 10px;
+  }
+
+  .circled:hover {
+    border: 1px, rgb(0, 0, 0);
+    border-bottom:#000;
+    border-style: solid;
+    width: fit-content;
+    border-width:thin;
+    margin-left: 10px;
+    fill:black;
+  }
+  
+
+  .infocolumn {
+    float: left;
+    position:relative;
+    width: 825px;
+    flex: 100%;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:15px;
+  }
+  
+  /* Clear floats after the columns */
+  .inforow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 800px) {
+    .infocolumn {
+      flex: 100%;
+      max-width: 100%;
+      margin-right:15px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .infocolumn {
+      flex: 90%;
+      max-width: 90%;
+      margin-right:15px;
+    }
+  }
+
+  img.bottom {
+    width:300px;
+    mix-blend-mode: multiply;
+    float:right;
+    margin-right:15px;
+    bottom: 0;
+}
+
+figcaption {
+    mix-blend-mode: multiply;
+    float:right;
+    margin-right:15px;
+    bottom: 0;
+    margin-top:15px;
+    font-size: 0.75rem;
+}
+
+figure {
+    width:300px;
+    mix-blend-mode: multiply;
+    float:right;
+    margin-right:15px;
+    bottom: 0;
+
+}
+
